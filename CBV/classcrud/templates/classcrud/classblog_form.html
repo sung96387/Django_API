@@ -1,0 +1,7 @@
+<!-- classblog_form.html -->
+
+<form method = 'POST'>
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="추가하기">
+</form>
